@@ -1,1 +1,7 @@
-
+:root {
+  --background-color: #eed9ff;
+  --first-accent-color: #ff570a;
+  --second-accent-color: #89608e;
+  --main-font-color: #0e0b0ede;
+  --accent-font: Hind Madurai, sans-serif;
+}
