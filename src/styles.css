@@ -11,6 +11,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: var(--maine-font);
+  color: var(--main-font-color);
 }
 header {
   background-color: var(--background-color);
