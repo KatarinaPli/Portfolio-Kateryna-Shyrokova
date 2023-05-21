@@ -101,3 +101,40 @@ a {
     display: block;
   }
 }
+.icon-contact {
+  width: 30px;
+  opacity: 0.9;
+}
+.home-section {
+  background-color: var(--background-color);
+  padding-top: 15%;
+  padding-bottom: 7%;
+  text-align: center;
+}
+.icon-contact-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 25px;
+}
+.icon-contact {
+  width: 45px;
+}
+.text-selection-frontend {
+  color: var(--first-accent-color);
+}
+.text-selection-design {
+  color: var(--second-accent-color);
+}
+.download-cv-btn {
+  padding: 23px;
+  border-radius: 20px;
+  background-color: var(--second-accent-color);
+  color: #fff;
+  border: 1 solid var(--second-accent-color);
+  margin: 30px;
+  box-shadow: rgba(26, 1, 32, 0.436) 0px 2px 8px 0px;
+}
+.frontend-maine-section {
+  background-color: #fff;
+}
