@@ -21,19 +21,20 @@ li {
   list-style: none;
 }
 a {
+  text-decoration: none;
   font-family: var(--accent-font);
   color: var(--main-font-color);
-  text-decoration: none;
 }
 .home-icon {
   color: var(--second-accent-color);
 }
 .navbar {
-  min-height: 55px;
+  min-height: 57px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
+  background-color: var(--background-color);
 }
 .nav-menu {
   margin: 0 auto;
@@ -49,10 +50,12 @@ a {
 }
 .nav-link {
   transition: 0.5s ease;
-  color: var(--main-font-color);
+
+  font-size: 18px;
+  font-weight: 400;
 }
 .nav-link:hover {
-  color: #630b6be4;
+  color: #623366e4;
 }
 .hamburger {
   display: none;
@@ -90,7 +93,7 @@ a {
     background-color: var(--background-color);
     width: 100%;
     text-align: center;
-    transition: 0.3s;
+    transition: all 0.3s ease-in-out;
   }
   .nav-item {
     margin: 13px 0;
@@ -103,10 +106,7 @@ a {
     display: block;
   }
 }
-.icon-contact {
-  width: 30px;
-  opacity: 0.9;
-}
+
 .home-section {
   background-color: var(--background-color);
   padding-top: 15%;
@@ -116,11 +116,19 @@ a {
 .icon-contact-section {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
-  gap: 25px;
+  margin-top: 44px;
+  gap: 28px;
+  opacity: 0.9;
 }
 .icon-contact {
   width: 45px;
+  border-radius: 100%;
+  box-shadow: rgba(41, 39, 39, 0.644) 0px 2px 8px 0px;
+  transition: all 0.3s ease-in-out;
+}
+.icon-contact:hover {
+  cursor: pointer;
+  opacity: 0.6;
 }
 .text-selection-frontend {
   color: var(--first-accent-color);
@@ -129,13 +137,19 @@ a {
   color: var(--second-accent-color);
 }
 .download-cv-btn {
-  padding: 23px;
+  padding: 24px 10px;
   border-radius: 20px;
   background-color: var(--second-accent-color);
   color: #fff;
   border: 1 solid var(--second-accent-color);
-  margin: 30px;
+  margin: 35px;
   box-shadow: rgba(26, 1, 32, 0.436) 0px 2px 8px 0px;
+  transition: all 0.7s ease-in-out;
+}
+.download-cv-btn:hover {
+  background-color: #553759;
+  border: 1 solid #553759;
+  box-shadow: rgba(31, 31, 31, 0.336) 0px 2px 8px 0px;
 }
 .frontend-maine-section {
   background-color: #fff;
