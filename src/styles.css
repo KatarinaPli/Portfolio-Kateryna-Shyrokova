@@ -154,3 +154,21 @@ a {
 .frontend-maine-section {
   background-color: #fff;
 }
+
+.project-frontend-btn{
+  color: var(--first-accent-color);
+  font-family: var(--accent-font);
+  border-radius: 15px;
+  padding: 14px 15px;
+  border: 1px solid var(--first-accent-color);
+  box-shadow:  rgba(99, 99, 99, 0.2) 0px 1px 8px 0px;
+  transition: ease-in-out 600ms;
+  font-size: 18px;
+  
+
+}
+
+.project-frontend-btn:hover{
+ color: #fff;
+  background-color: #ff580acc;
+}
