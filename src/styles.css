@@ -178,6 +178,9 @@ a {
   color: #fff;
   background-color: #ff580acc;
 }
+.project1-photo{
+  width: 100%;
+}
 
 
 
@@ -216,14 +219,9 @@ a {
     display: block;
   }
   .home-section {
-    padding-top: 45%;
-    padding-bottom: 25%;
+    padding-top: 27%;
+    padding-bottom: 17%;
     
   }
 }
-
-.project1-photo{
-  width: 100%;
-}
-
 
