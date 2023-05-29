@@ -10,7 +10,9 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+ box-sizing: border-box;
+  /*box-sizing: content-box;*/
+ 
   font-family: var(--maine-font);
   color: var(--main-font-color);
 }
@@ -33,7 +35,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
+ padding: 0 20px;
   background-color: var(--background-color);
 }
 .nav-menu {
@@ -65,13 +67,13 @@ a {
   display: block;
   width: 25px;
   height: 3px;
-  margin: 4px auto;
+  margin: 4px auto; 
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: var(--main-font-color);
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   .hamburger {
     display: block;
   }
@@ -105,13 +107,18 @@ a {
   .nav-branding {
     display: block;
   }
+  .home-section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
-
+*/
 .home-section {
   background-color: var(--background-color);
-  padding-top: 15%;
-  padding-bottom: 7%;
+  padding-top: 235px;
+  padding-bottom: 125px;
   text-align: center;
+
 }
 .icon-contact-section {
   display: flex;
@@ -155,20 +162,62 @@ a {
   background-color: #fff;
 }
 
-.project-frontend-btn{
+.project-frontend-btn {
   color: var(--first-accent-color);
   font-family: var(--accent-font);
   border-radius: 15px;
   padding: 14px 15px;
   border: 1px solid var(--first-accent-color);
-  box-shadow:  rgba(99, 99, 99, 0.2) 0px 1px 8px 0px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 1px 8px 0px;
   transition: ease-in-out 600ms;
   font-size: 18px;
-  
-
+  line-height: 27px;
 }
 
-.project-frontend-btn:hover{
- color: #fff;
+.project-frontend-btn:hover {
+  color: #fff;
   background-color: #ff580acc;
+}
+
+
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+  .nav-menu {
+    position: fixed;
+
+    top: -100%;
+    gap: 0;
+    flex-direction: column;
+    background-color: var(--background-color);
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+  }
+  .nav-item {
+    margin: 13px 0;
+  }
+  .nav-menu.active {
+    top: 0;
+    left: 0;
+  }
+  .nav-branding {
+    display: block;
+  }
+  .home-section {
+    padding-top: 45%;
+    padding-bottom: 25%;
+    
+  }
 }
