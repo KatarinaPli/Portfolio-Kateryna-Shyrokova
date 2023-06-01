@@ -276,6 +276,8 @@ display: block;
 color: #eed9ff;
 	margin-top: 0.25em;
   	font-family: var(--maine-font);
+    margin-left: 10px;
+    margin-right: 10px ;
 
 }
 
