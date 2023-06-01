@@ -190,12 +190,44 @@ a {
   text-decoration-thickness: 3px;
   text-underline-position: under;
 }
+.portfolio-photo{
+  border-radius: 50%;
+  width: 360px;
+}
+.about-name{
+  font-size: 26px;
+}
+.about-section{
+  margin-top: 150px;
+}
+
+.cv-btn {
 
 
+  padding: 20px 65px;
+  border-radius: 16px;
+  background-color: var(--second-accent-color);
+  color: #fff;
+  border: 1 solid var(--second-accent-color);
+  margin: 35px;
+  box-shadow: rgba(26, 1, 32, 0.288) 0px 1px 7px 0px;
+  transition: all 0.7s ease-in-out;
+}
+.download-cv-btn:hover {
+  background-color: #553759f0;
+  border: 1 solid #553759ec;
+  box-shadow: rgba(31, 31, 31, 0.228) 0px 1px 7px 0px;
+}
+.decoration-background{
+position: absolute;
+left: 0;
 
-
-
-
+  width: 300px;
+  height: 600px;
+  border-radius: 0 100%  100% 0 ;
+  background-color: #89608e6d;
+  z-index: -1;
+}
 
 
 
