@@ -431,10 +431,11 @@ margin-top: ;
   font-size: 15px;
 }
 .aboutme-description{
-  text-align: center;
- 
+  text-align: justify;
+ margin: 2px;
 }
 .about-name{
   text-align: center;
+  margin: 2px;
 }
 }
