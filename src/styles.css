@@ -420,13 +420,21 @@ margin-right: 5px;
   display: block;
   margin: auto;
   margin-bottom: 25px;
-
+margin-top: ;
 
 }
-
+.about-section{
+  margin-top: 120px;
+}
 .cv-btn{
 
   font-size: 15px;
 }
-
+.aboutme-description{
+  text-align: center;
+ 
+}
+.about-name{
+  text-align: center;
+}
 }
