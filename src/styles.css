@@ -194,6 +194,12 @@ a {
 .about-name{
   font-size: 26px;
 }
+
+
+.aboutme-description{
+  text-align: justify;
+
+}
 .about-section{
   margin-top: 150px;
 }
@@ -375,17 +381,24 @@ color: #eed9ff;
 
 }
 .portfolio-photo{
-  width: 300px;
+  width: 270px;
+  display: block;
+  margin: 0 auto;
 
 }
 .about-section{
-  margin-left: 10px;
-margin-right: 5px;
+
+padding: 0 ;
+text-align: center;
 }
 .cv-btn{
   display: flex;
   justify-content: center;
     font-size: 16px;
+}
+.about-name{
+  text-align: center;
+  margin: 2px;
 }
 
 
@@ -420,7 +433,7 @@ margin-right: 5px;
   display: block;
   margin: auto;
   margin-bottom: 25px;
-margin-top: ;
+
 
 }
 .about-section{
@@ -430,12 +443,9 @@ margin-top: ;
 
   font-size: 15px;
 }
-.aboutme-description{
-  text-align: justify;
- margin: 2px;
-}
+
 .about-name{
-  text-align: justify;
+  text-align: center;
   margin: 2px;
 }
 }
