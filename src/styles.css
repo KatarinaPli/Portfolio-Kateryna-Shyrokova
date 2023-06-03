@@ -302,6 +302,42 @@ top: 100px;
 background-color: #87538e1d;
 border: 1 solid transparent;
 }
+/*
+.certificate1, .certificate2, .certificate3
+{
+  width: 650px;
+}
+.certificate4{
+  width: 300px;
+}*/
+ 
+
+.scroll-element{
+  padding: 10px;
+  margin-top: 10px;
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+
+.certificates-scroller{
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 45%;
+  gap: 16px;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  padding-bottom: 10px; 
+  
+}
+
+.snaps-inline{
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: 1rem;
+}
+.snaps-inline > * {
+  scroll-snap-align: start;
+}
+
 
 
 
