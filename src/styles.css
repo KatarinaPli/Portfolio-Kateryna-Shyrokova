@@ -273,9 +273,15 @@ top: 100px;
 
 }
 
-
-
-
+.grid-container{
+  display: grid;
+}
+.grid-item{
+  width: 50px;
+}
+.grid-img{
+  width: 50px;
+}
 
 
 
