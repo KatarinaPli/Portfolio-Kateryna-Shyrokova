@@ -276,18 +276,41 @@ top: 100px;
 .grid-container{
   display: grid;
    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  gap: 5px;
+  
+ gap: 4px;
 }
 .grid-item{
-  width: 90px;
+  width: 120px;
+  transition:  all 0.3s ease;
+  
+}
+.grid-item:hover{
+  background-color: #ca14e71f;
+ 
+  border: 1 solid transparent;
+  border-radius: 8px;
+  
 }
 .grid-img{
-  width: 90px;
+  width: 120px;
+  
+  padding: 15px 30px;
+
+
 }
 .grid-card{
 background-color: #87538e1d;
 border: 1 solid transparent;
 }
+
+
+
+
+
+
+
+
+
 
 
 
