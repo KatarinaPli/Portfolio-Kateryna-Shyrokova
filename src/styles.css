@@ -275,14 +275,19 @@ top: 100px;
 
 .grid-container{
   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 5px;
 }
 .grid-item{
-  width: 50px;
+  width: 90px;
 }
 .grid-img{
-  width: 50px;
+  width: 90px;
 }
-
+.grid-card{
+background-color: #87538e1d;
+border: 1 solid transparent;
+}
 
 
 
