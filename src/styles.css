@@ -268,7 +268,10 @@ top: 100px;
   position: relative;
 }
 
-
+.descr-img{
+  text-align: center;
+  
+}
 
 
 
@@ -329,10 +332,9 @@ top: 100px;
 
   .image{
     position: relative;
+    
   }
-  .project1-photo{
-display: block;
-  }
+
 
 .image__overlay {
 	position: absolute;
@@ -451,4 +453,5 @@ text-align: center;
   text-align: center;
   margin: 2px;
 }
+
 }
