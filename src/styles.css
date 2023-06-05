@@ -338,9 +338,22 @@ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2p
   scroll-snap-align: start;
 }
 
+.link-socialmedia{
+  color: #5c3a60;
+  text-decoration: underline;
+  transition:  all 0.3s ease;
 
+}
 
-
+.link-socialmedia:hover{
+  color: #351739;
+}
+.name-link{
+  font-family: var(--accent-font);
+  font-size: 20px;
+margin-bottom: 0;
+margin-top: 20px;
+}
 
 
 
