@@ -548,7 +548,7 @@ text-align: center;
   
 }
 .grid-item:hover{
-  background-color: #cb14e713;
+  background-color: #c7aaca48;
  
   border: 1 solid transparent;
   border-radius: 8px;
@@ -571,13 +571,15 @@ text-align: center;
 
 .certificates-scroller{
 
-  grid-auto-columns: 80%;
+  grid-auto-columns: 85%;
   gap: 10px;
 
   
 }
 
-
+.grid-card{
+  margin-top: 0;
+}
 
 
 
