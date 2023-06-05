@@ -532,4 +532,54 @@ text-align: center;
   margin:25px ;
 }
 
+
+
+
+
+.grid-container{
+
+   grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  
+ gap: 3px;
+}
+.grid-item{
+  width: 90px;
+  transition:  all 0.3s ease;
+  
+}
+.grid-item:hover{
+  background-color: #cb14e713;
+ 
+  border: 1 solid transparent;
+  border-radius: 8px;
+  
+}
+.grid-img{
+  width: 90px;
+  
+  padding: 10px 20px;
+}
+
+
+
+.scroll-element{
+  padding: 6px;
+  margin-top: 6px;
+
+}
+
+
+.certificates-scroller{
+
+  grid-auto-columns: 80%;
+  gap: 10px;
+
+  
+}
+
+
+
+
+
+
 }
