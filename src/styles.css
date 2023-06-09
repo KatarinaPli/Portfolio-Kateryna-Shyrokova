@@ -229,13 +229,23 @@ a {
 
 }
 
-.decoration-background{
+.decoration-background-one{
 position: absolute;
 left: 0;
 top: 100px;
   width: 250px;
   height: 460px;
-  border-radius: 0 13rem  13rem 0 ;
+  border-radius: 0 14rem  14rem 0 ;
+  background-color: #7f628212;
+  z-index: -1;
+}
+.decoration-background-two{
+  position: absolute;
+right: 0;
+
+  width: 165px;
+  height: 330px;
+  border-radius:  14rem 0 0 14rem ;
   background-color: #7f628212;
   z-index: -1;
 }
@@ -389,7 +399,7 @@ outline: 0;
   border: 1px solid #825988; 
   border-radius: 15px;
   background-color:#825988;
-  color: #eed9ff;
+  color: #ffffff;
   padding: 13px 17px;
   display: block;
   margin: 10px auto;
@@ -648,7 +658,7 @@ margin: 0 auto ;
 
 
 footer{
-  margin-top: 200px;
+  margin-top: 360px;
 
 }
 
