@@ -361,7 +361,7 @@ margin-top: 20px;
 }
 
 .comment-box input{
-  width: 100%;
+  width:100%;
   height: 40px;
   padding: 0 15px;
   margin-bottom: 10px;
@@ -381,7 +381,7 @@ outline: 0;
 }
 
 .comment-box textarea:focus{
-  border: 1px solid #825988 ;
+  border: 1px solid #b773c2 ;
 outline: 0;
 }
 .comment-box button
@@ -408,6 +408,7 @@ footer{
   padding-bottom: 50px;
   margin-top: 500px;
   background-color: var(--background-color);
+  margin-right: 0;
 }
 
 
