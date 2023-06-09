@@ -642,15 +642,19 @@ footer{
 
 .grid-card{
   margin-top: 0;
+    display: block;
+margin: 0 auto ;
 }
 
 
 footer{
   margin-top: 200px;
+
 }
 
 .comment-box{
-  width: 280px;
+  width: 330px;
+margin: auto;
 }
 
 }
