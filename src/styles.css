@@ -328,7 +328,7 @@ right: 0;
 */
 
 .portfolio-photo{
-  border-radius: 50%;
+  border-radius: 100%;
   width: 360px;
   position: relative;
 }
@@ -487,6 +487,10 @@ footer{
 
 
 @media (max-width: 992px) {
+  :root {
+  --background-color: #f4ebf5;
+
+}
   .hamburger {
     display: block;
   }
@@ -610,10 +614,7 @@ footer{
 
 @media (max-width: 576px) {
 
-:root {
-  --background-color: #f4ebf5;
 
-}
 
 
 
@@ -632,7 +633,7 @@ footer{
  
 }
 .icon-contact {
-  width: 44px;
+  width: 45px;
 opacity: 0.9;
 }
 .icon-contact:hover{
