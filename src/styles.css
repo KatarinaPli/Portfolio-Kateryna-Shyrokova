@@ -610,6 +610,10 @@ footer{
 
 @media (max-width: 576px) {
 
+:root {
+  --background-color: #f4ebf5;
+
+}
 
 
 
