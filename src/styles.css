@@ -1,5 +1,5 @@
 :root {
-  --background-color: #eed9ff;
+  --background-color: #f3e1f6;
   --first-accent-color: #ff570a;
   --second-accent-color: #89608e;
   --main-font-color: #0e0b0ede;
@@ -628,7 +628,7 @@ footer{
  
 }
 .icon-contact {
-  width: 38px;
+  width: 44px;
 opacity: 0.9;
 }
 .icon-contact:hover{
